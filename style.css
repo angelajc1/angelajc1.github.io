@@ -1,3 +1,42 @@
-h1 {
-	color: red;
+/* Spotify green: #1db954 */
+/* Dark blue: #23232d */
+
+
+.t1 {
+	color: #23232d;
+	font-family: Arial;
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+
+/* Green button, white text */
+.button1 {
+	background-color: #1db954;
+	border-radius: 100px;
+	border: 1px solid #1db954;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 17px;
+	padding: 13px 31px;
+	text-decoration: none;
+}
+.button1:active {
+	position: relative;
+	top: 1px;
+}
+
+/* White button, green text */
+.button2 {
+	background-color:#ffffff;
+	border-radius: 100px;
+	border: 1px solid #1db954;
+	color: #1db954;
+	font-family: Arial;
+	font-size: 17px;
+	padding: 13px 31px;
+	text-decoration: none;
+}
+.button2:active {
+	position: relative;
+	top: 1px;
 }

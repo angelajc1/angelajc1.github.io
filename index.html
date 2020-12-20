@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
+
    <head>
-    <title>my amazing website</title>
+    <title>Who am I, Spotify?</title>
     <link rel="stylesheet" href="style.css" />
    </head>
+
    <body>
-    <h1>i am Big</h1>
+    <div style="display: table; height: 100%; width:100%; margin: 15em auto; overflow: hidden;">
+      <div style="display: table-cell; vertical-align: middle; text-align:center;">
+        <div class="t1">Who am I, Spotify?</div>
+        <button id="startButton" class="button1">log in</button>
+      </div>
+    </div>
+    <script>
+      // Start button
+      document.getElementById("startButton").onclick = function() {
+        window.location.href = '/login';
+      };
+    </script>
    </body>
 </html>
